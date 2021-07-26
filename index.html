@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<style>    
+html, body {
+    margin: 0;
+    height: 100%;
+    display: grid;
+} 
+    .centered{
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+    }
+    .header{
+        position: fixed;
+        top: 0%;
+        left: 90%;
+        font-size: 90%;
+        padding: 7px;
+        padding-right: 2px;
+        border-bottom-style: none !important; 
+        color: #000000;
+    }
+    a+a {
+        margin-left: 12px;
+    }
+
+
+    .search-box{
+        position: fixed;
+        top: 40%;
+        left: 37%;
+        border-top: 0.7px solid rgb(226, 226, 226);
+        border-bottom: 0.7px solid rgb(226, 226, 226);
+        border-left: 0.7px solid rgb(226, 226, 226);
+        border-right: 0.7px solid rgb(226, 226, 226);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 25%;
+        height: 5%;
+}
+
+</style>
+
+<html>
+    <head>
+        <title>            Google        </title>
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <a href="#" style="text-decoration:none; color: #000000;" >Gmail</a>
+                <a href="#" style="text-decoration:none; color: #000000;">Images</a>
+                <a href="#" style="text-decoration:none; color: #000000;">Profile</a>
+            </div>
+        </div>
+        <div class="centered">
+           
+            <a  href="https://www.google.com" title="Google" > <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="GoogleLogo" width="272" height="92"></a>
+        </div>
+        <div>
+            <input class="search-box" type="text" placeholder="   Search">
+        </div>
+    </body>
+</html>

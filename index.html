@@ -26,6 +26,23 @@ html, body {
         margin-left: 12px;
     }
 
+    button{
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+        
+    }
 
     .search-box{
         position: fixed;
@@ -41,8 +58,23 @@ html, body {
         border-bottom-right-radius: 20px;
         width: 25%;
         height: 5%;
-}
+    }
 
+    .footer{
+        position: fixed;
+        background: darkgrey !important;
+    }
+    .footer-1{
+        position: fixed;
+        top: 95%;
+        left: 1%;
+    }
+
+    .footer-2{
+        position: fixed;
+        top: 95%;
+        left: 89%;
+    }
 </style>
 
 <html>
@@ -50,7 +82,7 @@ html, body {
         <title>            Google        </title>
     </head>
     <body>
-        <div class="header">
+        <div class="header" background-color = darkgrey;>
             <div>
                 <a href="#" style="text-decoration:none; color: #000000;" >Gmail</a>
                 <a href="#" style="text-decoration:none; color: #000000;">Images</a>
@@ -63,6 +95,23 @@ html, body {
         </div>
         <div>
             <input class="search-box" type="text" placeholder="   Search">
+        </div>
+        <div>
+            <button type="button" style="position: fixed;left: 41%; top:48%" >Google Search</button>
+            <button type="button" style="position: fixed;left: 50%; top:48%" >I'm Feeling Lucky</button>
+        </div>
+        <div class="footer">
+            <div class="footer-1">
+                <a href="#" style="text-decoration:none; color: #000000;">Advertising</a>
+                <a href="#" style="text-decoration:none; color: #000000;">Business</a>
+                <a href="#" style="text-decoration:none; color: #000000;">How search works?</a>
+            </div>
+            <div class="footer-2">
+                <a href="#" style="text-decoration:none; color: #000000;">Privacy</a>
+                <a href="#" style="text-decoration:none; color: #000000;">Term</a>
+                <a href="#" style="text-decoration:none; color: #000000;">Settings</a>
+            </div>
+            
         </div>
     </body>
 </html>
